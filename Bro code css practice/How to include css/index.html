@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How to include CSS</title>
+        <link rel="stylesheet" href="index.css">
+        <style>
+                #internalCss{
+                        background-color: blue;
+                        color: red;
+                        font-size: 30px;
+                }
+        </style>
+</head>
+<body>
+        <h1>CSS Demo</h1>
+
+        <h2>Inline CSS</h2>
+        <p style="background-color: black; color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis eos deserunt hic optio obcaecati explicabo vitae ipsam facilis reprehenderit, omnis sit quis, possimus error deleniti dolorum voluptatum in quas?</p>
+                <br>
+                In the above paragraph we are using inline css in the opening tag of the paragraph element
+        <h2>Intenal CSS</h2>
+        <p id="internalCss" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos a placeat totam? Explicabo dolore impedit eos dolorem consequuntur iusto quas soluta debitis aliquid itaque minima quidem, illo, accusantium, atque porro?</p>
+        we are using internal css by using using style tag in head section of the html file <br>
+        <h2 id="heading">External css</h2>
+        <p id="externalCss">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias velit, animi perspiciatis explicabo distinctio odit laborum inventore doloribus quod dignissimos deleniti ad commodi, ex asperiores omnis ipsum ipsa, nisi nesciunt.</p>
+        we are linking external css with index.css file in the head tag in link element.
+        <p>We can link the external style sheet using file name of CSS or File path of CSS or url of the css in href attribute of the link element in head tag of html.</p>
+</body>
+</html>

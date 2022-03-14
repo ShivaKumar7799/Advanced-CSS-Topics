@@ -1,0 +1,19 @@
+html{
+        background-color: skyblue;
+}
+.rgb{
+        background-color:rgb(23, 823, 36);
+        padding: 10px;
+        color: red;
+}
+.hexa{
+        background-color: #f0f0f0;
+}
+.linearGradient{
+        background: linear-gradient(grey, blue);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+}
+

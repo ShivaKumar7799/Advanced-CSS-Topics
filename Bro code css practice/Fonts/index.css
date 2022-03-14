@@ -1,0 +1,16 @@
+p{
+        font-family: "Ink Free","MV Boli",sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline wavy blue;
+        color: green;
+        background-color: salmon;
+}
+
+h1{
+        font-family: 'Pushster', cursive,sans-serif;
+        color: red;
+        background-color: blue;
+
+}

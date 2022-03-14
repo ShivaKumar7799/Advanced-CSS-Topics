@@ -1,0 +1,60 @@
+.shadow{
+        font-size: 40px;
+        font-weight: bold;
+        border: 2px solid;
+        width: 400px;
+        padding: 25px;
+
+
+        text-shadow: 0px;
+
+        box-shadow: 0px;
+}
+
+/* Adding shaoow property to text only*/
+
+.p1{
+        text-shadow: 10px 10px 5px blue ;
+        background-color: lightgreen;
+}
+/* Adding shadow property to border only*/
+
+.p2{
+        box-shadow: 10px 10px 10px grey;
+}
+
+/* Adding text shadow and box shadow property */
+
+.p3{
+        text-shadow: 10px 10px 5px green;
+        background-color: grey;
+        color: salmon;
+
+        box-shadow: 5px 10px 15px blue;
+}
+
+/* Adding multiple colors to text shadow */
+
+.p4{
+        text-shadow: 5px 5px 5px red, 5px -5px 5px yellow;
+        background-color: black;
+        color: white;
+}
+
+/* text-shadow and Box-shadow order
+      horizontal(px)
+      vertical (px)
+      blur(px)
+      color(name,hexa,rgb)
+      
+      text-shadow shortand:
+      text-shadow: horizontal  vertical  blur  color;
+      text-shadow:    5px        10px    5px   red;
+
+      same for box-shadow;
+      
+      Negative horizontal pixels value indicates left shadow direction
+      Negative vertical pixels value indicates top shadow direction
+      
+      We can add mutiple shadows seperated with comma
+      ex: text-shadow: 5px 4px 7px red, 3px -5px 4px green;*/

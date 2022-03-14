@@ -1,0 +1,81 @@
+p{
+        width: 100px;
+        background-color: red;
+        font-size: 85px;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+}
+
+.x-p1{
+        transform: translateX(50px);
+}
+/* We are transforming horizantally 50px to the right with positive value in the brackets.*/
+.x-p2{
+        transform: translateX(-50px);
+}
+/* We are transforming horizantally -50px to the left with Negative value in the brackets.*/
+
+.y-p1{
+        transform: translateY(200px);
+}
+/* We are transforming Vertically 200px from the topt with positive value in the brackets.*/
+.y-p2{
+        transform: translateY(-100px);
+}
+/* We are transforming Vertically -100px from the bottom with Negative value in the brackets.
+Now, Both the blocks are interchanged*/
+
+#X-Y{
+        transform: translate(100px,50px);
+}
+#normal{
+
+}
+#r-x180{
+        transform: rotateX(180deg);
+}
+#r-y180{
+        transform: rotateY(180deg);
+}
+#r-z180{
+        transform: rotateZ(180deg);
+}
+#r180{
+        transform: rotate(180deg);
+}
+/* Note: rotate 180 degrees and Rotate z 180 degrees is same */
+
+#s-x{
+        transform: scaleX(2);
+}
+#s-y{
+        transform: scaleY(0.5);
+}
+#s-xy{
+        transform: scale(2,2);
+}
+/* scale 2,2 will increase the size both horizontally and Vertically */
+
+#skew-x{
+        transform: skew(45deg);
+}
+#skew-y{
+        transform: skewY(45deg);       
+}
+#skew{
+        transform: skew(45deg, 30deg);
+}
+
+/* Transform shorthand property */
+#all{
+        transform: matrix(2,0.5,1,2,50,50);
+}
+/* Transform shorthand Order 
+        scaleX(),
+        skewY(),
+        skewX(),
+        scaleY(),
+        translateX(),
+        translateY().    */
+        

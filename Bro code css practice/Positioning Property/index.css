@@ -1,0 +1,72 @@
+.align{
+        border: 1px solid;
+}
+.p1{
+        text-align: left;
+}
+.p2{
+        text-align: center;
+}
+.p3{
+        text-align: right;
+}
+
+img{
+        float: right;
+        margin: 5px; 
+        
+}
+.floatP{
+        border: 2px solid;
+        padding: 10px;
+        width: 500px;
+
+}
+
+.fixed h2{
+        border: 1px solid;
+        background-color: yellow;
+        width: 300px;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+}
+
+.relative h2{
+        border: 1px solid;
+        background-color: green;
+        width: 300px;
+        position: relative;
+        top: 50px;
+        left: 80px;
+}
+.rel-abs{
+        border: 1px solid;
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        position: relative;
+        margin: 0px auto;
+}
+.absolute{
+        border: 1px solid;
+        background-color: lime;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        left: 50px; 
+}
+
+
+
+.sticky h2{
+        border: 1px solid;
+        background-color: blue;
+        width: 300px;
+        position: sticky;
+        top: 10px;
+        left: 10px;
+}
+
+/* static is default position, We can use when we want to reset the position */

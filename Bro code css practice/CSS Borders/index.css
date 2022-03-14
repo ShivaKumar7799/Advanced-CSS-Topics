@@ -1,0 +1,62 @@
+
+h1{
+        border-bottom: dotted;
+        border-color:blue;
+        border-width: 5px;
+}
+
+
+.normal{
+        border-width: 10px;
+        border-style: normal;
+        padding: 15px;
+}
+
+.solid{
+        border-color: lightgreen;
+        border-width: 10px 4px 20px 5px ;
+        border-style: solid;
+        padding: 15px;
+        border-radius: 10px;
+
+}
+
+.dashed{
+        border-width: 10px;
+        border-style: dashed;
+        padding: 15px;
+}
+
+.dotted{
+        border-style: dotted;
+        padding: 15px;
+}
+
+.double{
+        border-width: 10px;
+        border-style: double;
+        padding: 15px;
+}
+
+.ridge{
+        border-width: 10px;
+        border-style: ridge;
+        padding: 15px;
+}
+
+.groove{
+        border-width: 10px;
+        border-style: groove;
+        padding: 15px;
+}
+
+.inset{
+        border-width: 10px;
+        border-style: inset;
+        padding: 15px;
+}
+.outset{
+        border-width: 10px;
+        border-style: outset;
+        padding: 15px;
+}

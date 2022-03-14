@@ -1,0 +1,21 @@
+html{
+        background-image: url("image.jpg");
+        color: white;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+}
+h1{
+        font-size: 50px;
+        background:linear-gradient(red, orange, yellow,green, blue, indigo,violet);
+}
+p{
+        background: linear-gradient(to right,grey, black);
+}
+#myText{
+        background: linear-gradient(to right,red,green);
+}
+.bg{
+        background: linear-gradient(to right,red,green);
+}

@@ -1,0 +1,50 @@
+html{
+        margin-top: -21px;
+        margin-left: -8px;
+}
+h1{
+        border: 1px solid black ;
+        width: 300px;
+}
+#margin{
+        border: 1px solid red;
+        width: 250px;
+        padding: 25px;
+        margin: 25px;
+}
+
+.margin1{
+        border: 2px solid green;
+        margin: top 20px;
+        margin-left: 50px;
+        margin-right: 100px;
+        margin-bottom: 30px;
+        padding: 20px;
+}
+
+.margin2{
+        border: 2px solid blue;
+        margin: 25px 50px 30px 50px;
+}
+
+.margin3{
+        border: 2px solid orange;
+        margin: 10%;
+}
+.margin4{
+        border: 2px solid rgb(156, 69, 84);
+        width: 300px;
+        margin-left: auto;
+}
+.margin5{
+        border: 2px solid black;
+        max-width: 300px;
+        margin-right: auto;
+}
+
+.margin6{
+        width: 200px;
+        border: 2px solid green;
+        padding: 10px;
+        margin: auto;    
+}

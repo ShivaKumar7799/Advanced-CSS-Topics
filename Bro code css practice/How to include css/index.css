@@ -1,0 +1,11 @@
+#externalCss{
+        background-color: lightblue;
+        color: salmon;
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+}
+#heading{
+        background-color: red;
+        color: white;
+        font-size: 40px;
+}

@@ -1,0 +1,54 @@
+a:link{
+        color: green;
+}
+a:visited{
+        color: violet;
+}
+
+button:hover{
+        background-color: red;
+        color: white;
+}
+
+button:active{
+        background-color: blue;
+        color: white;
+}
+/* Adding Pseudo  elements to first child using li:first-child and for last child li:last-child */
+.first li:first-child{
+        background-color: lightgreen;
+}
+.first li:last-child{
+        background-color: lightgreen;
+}
+/* Adding psuedo class to specific list using li:nth-child(5) */
+.second li:nth-child(5){
+        background-color: lime;
+}
+
+/* Adding psuedo class to odd or even number list using li:nth-child(odd) for odd numbered
+list and using li:nth-child(even) for even number list*/
+.third li{
+        color: white;
+}
+.third li:nth-child(odd){
+        background-color: grey;      
+}
+.third li:nth-child(even){
+        background-color: salmon;
+}
+
+/* Adding Psuedo classes using (an+b) formulae
+
+       nth:nth-child(an+b)
+        a= cycle size
+        n= counter( starts at 0)
+        b= offset value 
+        
+        Every Pseudo class elements using (an+b) will starts with b offset value and 
+        cycle repeats with a cycle size*/
+
+.fourth li:nth-child(4n+1){
+        background-color: red;
+        color: white;
+}
